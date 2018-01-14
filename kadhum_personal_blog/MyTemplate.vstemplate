@@ -1,0 +1,50 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>it_blog</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>Web</ProjectType>
+    <ProjectSubType>CSharp</ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>it_blog</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="ProjectName.webproj" File="ProjectName.webproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="admin.aspx">admin.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="admin.aspx.cs">admin.aspx.cs</ProjectItem>
+      <Folder Name="App_Code" TargetFolderName="App_Code">
+        <ProjectItem ReplaceParameters="true" TargetFileName="database_hundler.cs">database_hundler.cs</ProjectItem>
+      </Folder>
+      <Folder Name="App_Data" TargetFolderName="App_Data">
+        <ProjectItem ReplaceParameters="false" TargetFileName="it_blog_db.mdf">it_blog_db.mdf</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="it_blog_db_log.ldf">it_blog_db_log.ldf</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="ArticleDetail.aspx">ArticleDetail.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="ArticleDetail.aspx.cs">ArticleDetail.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="de.jpg">de.jpg</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Default.aspx">Default.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Default.aspx.cs">Default.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="index.html">index.html</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="LoginPage.aspx">LoginPage.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="LoginPage.aspx.cs">LoginPage.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="logout.aspx">logout.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="logout.aspx.cs">logout.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="MainCss.css">MainCss.css</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="new_article.aspx">new_article.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="new_article.aspx.cs">new_article.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="profile.aspx">profile.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="profile.aspx.cs">profile.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="registration.aspx">registration.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="registration.aspx.cs">registration.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="SiteMasterPage.master">SiteMasterPage.master</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="SiteMasterPage.master.cs">SiteMasterPage.master.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.config">Web.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.Debug.config">Web.Debug.config</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="website.publishproj">website.publishproj</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
